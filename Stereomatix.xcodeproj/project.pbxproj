@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F9598F02FFB858300C14E70 /* StereomatixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9598EF2FFB858300C14E70 /* StereomatixApp.swift */; };
+		8F9598F22FFB858300C14E70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9598F12FFB858300C14E70 /* ContentView.swift */; };
+		8F9598F42FFB858400C14E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9598F32FFB858400C14E70 /* Assets.xcassets */; };
+		8F9598F72FFB858400C14E70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9598F62FFB858400C14E70 /* Preview Assets.xcassets */; };
+		8F9599022FFB858400C14E70 /* StereomatixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9599012FFB858400C14E70 /* StereomatixTests.swift */; };
+		8F95990C2FFB858400C14E70 /* StereomatixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F95990B2FFB858400C14E70 /* StereomatixUITests.swift */; };
+		8F95990E2FFB858400C14E70 /* StereomatixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F95990D2FFB858400C14E70 /* StereomatixUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F9598FE2FFB858400C14E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F9598E42FFB858300C14E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F9598EB2FFB858300C14E70;
+			remoteInfo = Stereomatix;
+		};
+		8F9599082FFB858400C14E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F9598E42FFB858300C14E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F9598EB2FFB858300C14E70;
+			remoteInfo = Stereomatix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F9598EC2FFB858300C14E70 /* Stereomatix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stereomatix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9598EF2FFB858300C14E70 /* StereomatixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereomatixApp.swift; sourceTree = "<group>"; };
+		8F9598F12FFB858300C14E70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8F9598F32FFB858400C14E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F9598F62FFB858400C14E70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8F9598F82FFB858400C14E70 /* Stereomatix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stereomatix.entitlements; sourceTree = "<group>"; };
+		8F9598FD2FFB858400C14E70 /* StereomatixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StereomatixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9599012FFB858400C14E70 /* StereomatixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereomatixTests.swift; sourceTree = "<group>"; };
+		8F9599072FFB858400C14E70 /* StereomatixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StereomatixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F95990B2FFB858400C14E70 /* StereomatixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereomatixUITests.swift; sourceTree = "<group>"; };
+		8F95990D2FFB858400C14E70 /* StereomatixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereomatixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F9598E92FFB858300C14E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9598FA2FFB858400C14E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9599042FFB858400C14E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F9598E32FFB858300C14E70 = {
+			isa = PBXGroup;
+			children = (
+				8F9598EE2FFB858300C14E70 /* Stereomatix */,
+				8F9599002FFB858400C14E70 /* StereomatixTests */,
+				8F95990A2FFB858400C14E70 /* StereomatixUITests */,
+				8F9598ED2FFB858300C14E70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F9598ED2FFB858300C14E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F9598EC2FFB858300C14E70 /* Stereomatix.app */,
+				8F9598FD2FFB858400C14E70 /* StereomatixTests.xctest */,
+				8F9599072FFB858400C14E70 /* StereomatixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F9598EE2FFB858300C14E70 /* Stereomatix */ = {
+			isa = PBXGroup;
+			children = (
+				8F9598EF2FFB858300C14E70 /* StereomatixApp.swift */,
+				8F9598F12FFB858300C14E70 /* ContentView.swift */,
+				8F9598F32FFB858400C14E70 /* Assets.xcassets */,
+				8F9598F82FFB858400C14E70 /* Stereomatix.entitlements */,
+				8F9598F52FFB858400C14E70 /* Preview Content */,
+			);
+			path = Stereomatix;
+			sourceTree = "<group>";
+		};
+		8F9598F52FFB858400C14E70 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8F9598F62FFB858400C14E70 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8F9599002FFB858400C14E70 /* StereomatixTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F9599012FFB858400C14E70 /* StereomatixTests.swift */,
+			);
+			path = StereomatixTests;
+			sourceTree = "<group>";
+		};
+		8F95990A2FFB858400C14E70 /* StereomatixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F95990B2FFB858400C14E70 /* StereomatixUITests.swift */,
+				8F95990D2FFB858400C14E70 /* StereomatixUITestsLaunchTests.swift */,
+			);
+			path = StereomatixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F9598EB2FFB858300C14E70 /* Stereomatix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9599112FFB858400C14E70 /* Build configuration list for PBXNativeTarget "Stereomatix" */;
+			buildPhases = (
+				8F9598E82FFB858300C14E70 /* Sources */,
+				8F9598E92FFB858300C14E70 /* Frameworks */,
+				8F9598EA2FFB858300C14E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stereomatix;
+			productName = Stereomatix;
+			productReference = 8F9598EC2FFB858300C14E70 /* Stereomatix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F9598FC2FFB858400C14E70 /* StereomatixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9599142FFB858400C14E70 /* Build configuration list for PBXNativeTarget "StereomatixTests" */;
+			buildPhases = (
+				8F9598F92FFB858400C14E70 /* Sources */,
+				8F9598FA2FFB858400C14E70 /* Frameworks */,
+				8F9598FB2FFB858400C14E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F9598FF2FFB858400C14E70 /* PBXTargetDependency */,
+			);
+			name = StereomatixTests;
+			productName = StereomatixTests;
+			productReference = 8F9598FD2FFB858400C14E70 /* StereomatixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F9599062FFB858400C14E70 /* StereomatixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9599172FFB858400C14E70 /* Build configuration list for PBXNativeTarget "StereomatixUITests" */;
+			buildPhases = (
+				8F9599032FFB858400C14E70 /* Sources */,
+				8F9599042FFB858400C14E70 /* Frameworks */,
+				8F9599052FFB858400C14E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F9599092FFB858400C14E70 /* PBXTargetDependency */,
+			);
+			name = StereomatixUITests;
+			productName = StereomatixUITests;
+			productReference = 8F9599072FFB858400C14E70 /* StereomatixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F9598E42FFB858300C14E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8F9598EB2FFB858300C14E70 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8F9598FC2FFB858400C14E70 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8F9598EB2FFB858300C14E70;
+					};
+					8F9599062FFB858400C14E70 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8F9598EB2FFB858300C14E70;
+					};
+				};
+			};
+			buildConfigurationList = 8F9598E72FFB858300C14E70 /* Build configuration list for PBXProject "Stereomatix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F9598E32FFB858300C14E70;
+			productRefGroup = 8F9598ED2FFB858300C14E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F9598EB2FFB858300C14E70 /* Stereomatix */,
+				8F9598FC2FFB858400C14E70 /* StereomatixTests */,
+				8F9599062FFB858400C14E70 /* StereomatixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F9598EA2FFB858300C14E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9598F72FFB858400C14E70 /* Preview Assets.xcassets in Resources */,
+				8F9598F42FFB858400C14E70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9598FB2FFB858400C14E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9599052FFB858400C14E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F9598E82FFB858300C14E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9598F22FFB858300C14E70 /* ContentView.swift in Sources */,
+				8F9598F02FFB858300C14E70 /* StereomatixApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9598F92FFB858400C14E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9599022FFB858400C14E70 /* StereomatixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9599032FFB858400C14E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F95990E2FFB858400C14E70 /* StereomatixUITestsLaunchTests.swift in Sources */,
+				8F95990C2FFB858400C14E70 /* StereomatixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F9598FF2FFB858400C14E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F9598EB2FFB858300C14E70 /* Stereomatix */;
+			targetProxy = 8F9598FE2FFB858400C14E70 /* PBXContainerItemProxy */;
+		};
+		8F9599092FFB858400C14E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F9598EB2FFB858300C14E70 /* Stereomatix */;
+			targetProxy = 8F9599082FFB858400C14E70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F95990F2FFB858400C14E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F9599102FFB858400C14E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8F9599122FFB858400C14E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stereomatix/Stereomatix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stereomatix/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcellis.Stereomatix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8F9599132FFB858400C14E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stereomatix/Stereomatix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stereomatix/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcellis.Stereomatix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8F9599152FFB858400C14E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcellis.StereomatixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stereomatix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stereomatix";
+			};
+			name = Debug;
+		};
+		8F9599162FFB858400C14E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcellis.StereomatixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stereomatix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stereomatix";
+			};
+			name = Release;
+		};
+		8F9599182FFB858400C14E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcellis.StereomatixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Stereomatix;
+			};
+			name = Debug;
+		};
+		8F9599192FFB858400C14E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcellis.StereomatixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Stereomatix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F9598E72FFB858300C14E70 /* Build configuration list for PBXProject "Stereomatix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F95990F2FFB858400C14E70 /* Debug */,
+				8F9599102FFB858400C14E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9599112FFB858400C14E70 /* Build configuration list for PBXNativeTarget "Stereomatix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9599122FFB858400C14E70 /* Debug */,
+				8F9599132FFB858400C14E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9599142FFB858400C14E70 /* Build configuration list for PBXNativeTarget "StereomatixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9599152FFB858400C14E70 /* Debug */,
+				8F9599162FFB858400C14E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9599172FFB858400C14E70 /* Build configuration list for PBXNativeTarget "StereomatixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9599182FFB858400C14E70 /* Debug */,
+				8F9599192FFB858400C14E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F9598E42FFB858300C14E70 /* Project object */;
+}
