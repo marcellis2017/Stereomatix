@@ -3,11 +3,13 @@ import SwiftUI
 enum AppScreen {
     case welcome
     case acquire
+    case workspace
 }
 
 struct ContentView: View {
 
     @State private var currentScreen: AppScreen = .welcome
+    @State private var workspacePairs: [StereoPair] = []
 
     var body: some View {
         switch currentScreen {
@@ -15,8 +17,16 @@ struct ContentView: View {
             WelcomeView(currentScreen: $currentScreen)
 
         case .acquire:
-            Text("Acquire screen coming next")
-                .font(.largeTitle.bold())
+            AcquireView(
+                currentScreen: $currentScreen,
+                workspacePairs: $workspacePairs
+            )
+
+        case .workspace:
+            WorkspaceView(
+                currentScreen: $currentScreen,
+                stereoPairs: $workspacePairs
+            )
         }
     }
 }

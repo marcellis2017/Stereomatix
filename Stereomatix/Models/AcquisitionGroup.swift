@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+struct AcquisitionGroup: Identifiable {
+
+    let id = UUID()
+
+    let title: String
+
+    var stereoPairs: [StereoPair]
+}

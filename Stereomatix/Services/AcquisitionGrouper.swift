@@ -6,3 +6,20 @@
 //
 
 import Foundation
+
+
+struct AcquisitionGrouper {
+
+    static func group(
+        stereoPairs: [StereoPair],
+        sourceName: String
+    ) -> [AcquisitionGroup] {
+
+        return [
+            AcquisitionGroup(
+                title: sourceName,
+                stereoPairs: stereoPairs
+            )
+        ]
+    }
+}
