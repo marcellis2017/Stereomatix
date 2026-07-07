@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F3843852FFCDE2E00687A83 /* FolderScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3843842FFCDE2E00687A83 /* FolderScanner.swift */; };
+		8F3843872FFCE34A00687A83 /* PhotoCandidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3843862FFCE34A00687A83 /* PhotoCandidate.swift */; };
+		8F3843892FFCE39500687A83 /* StereoPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3843882FFCE39500687A83 /* StereoPair.swift */; };
+		8F38438B2FFD3A8400687A83 /* WorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38438A2FFD3A8400687A83 /* WorkspaceView.swift */; };
+		8F38438D2FFD3C7F00687A83 /* StereoPairFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38438C2FFD3C7F00687A83 /* StereoPairFinder.swift */; };
+		8F38438F2FFD51AB00687A83 /* AcquisitionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38438E2FFD51AA00687A83 /* AcquisitionGroup.swift */; };
+		8F3843912FFD51FB00687A83 /* AcquisitionGrouper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3843902FFD51FB00687A83 /* AcquisitionGrouper.swift */; };
+		8F3843932FFD53CD00687A83 /* PowePointImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3843922FFD53CD00687A83 /* PowePointImporter.swift */; };
+		8F3843952FFD6AB200687A83 /* Batch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3843942FFD6AB200687A83 /* Batch.swift */; };
 		8F9598F02FFB858300C14E70 /* StereomatixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9598EF2FFB858300C14E70 /* StereomatixApp.swift */; };
 		8F9598F22FFB858300C14E70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9598F12FFB858300C14E70 /* ContentView.swift */; };
 		8F9598F42FFB858400C14E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9598F32FFB858400C14E70 /* Assets.xcassets */; };
@@ -15,6 +24,7 @@
 		8F95990C2FFB858400C14E70 /* StereomatixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F95990B2FFB858400C14E70 /* StereomatixUITests.swift */; };
 		8F95990E2FFB858400C14E70 /* StereomatixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F95990D2FFB858400C14E70 /* StereomatixUITestsLaunchTests.swift */; };
 		8FD711C42FFC0B7000A6AEA3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD711C32FFC0B7000A6AEA3 /* WelcomeView.swift */; };
+		8FD711C62FFC1A9500A6AEA3 /* AcquireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD711C52FFC1A9500A6AEA3 /* AcquireView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F3843842FFCDE2E00687A83 /* FolderScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderScanner.swift; sourceTree = "<group>"; };
+		8F3843862FFCE34A00687A83 /* PhotoCandidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCandidate.swift; sourceTree = "<group>"; };
+		8F3843882FFCE39500687A83 /* StereoPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereoPair.swift; sourceTree = "<group>"; };
+		8F38438A2FFD3A8400687A83 /* WorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceView.swift; sourceTree = "<group>"; };
+		8F38438C2FFD3C7F00687A83 /* StereoPairFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereoPairFinder.swift; sourceTree = "<group>"; };
+		8F38438E2FFD51AA00687A83 /* AcquisitionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcquisitionGroup.swift; sourceTree = "<group>"; };
+		8F3843902FFD51FB00687A83 /* AcquisitionGrouper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcquisitionGrouper.swift; sourceTree = "<group>"; };
+		8F3843922FFD53CD00687A83 /* PowePointImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowePointImporter.swift; sourceTree = "<group>"; };
+		8F3843942FFD6AB200687A83 /* Batch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Batch.swift; sourceTree = "<group>"; };
 		8F9598EC2FFB858300C14E70 /* Stereomatix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stereomatix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9598EF2FFB858300C14E70 /* StereomatixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereomatixApp.swift; sourceTree = "<group>"; };
 		8F9598F12FFB858300C14E70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +66,7 @@
 		8F95990B2FFB858400C14E70 /* StereomatixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereomatixUITests.swift; sourceTree = "<group>"; };
 		8F95990D2FFB858400C14E70 /* StereomatixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereomatixUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8FD711C32FFC0B7000A6AEA3 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = ../../WelcomeView.swift; sourceTree = "<group>"; };
+		8FD711C52FFC1A9500A6AEA3 /* AcquireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcquireView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				8FD711C32FFC0B7000A6AEA3 /* WelcomeView.swift */,
+				8FD711C52FFC1A9500A6AEA3 /* AcquireView.swift */,
+				8F38438A2FFD3A8400687A83 /* WorkspaceView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -145,6 +167,10 @@
 		8F95991C2FFBEF3800C14E70 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8F3843862FFCE34A00687A83 /* PhotoCandidate.swift */,
+				8F3843882FFCE39500687A83 /* StereoPair.swift */,
+				8F38438E2FFD51AA00687A83 /* AcquisitionGroup.swift */,
+				8F3843942FFD6AB200687A83 /* Batch.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,6 +178,10 @@
 		8F95991D2FFBEF4800C14E70 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				8F3843842FFCDE2E00687A83 /* FolderScanner.swift */,
+				8F38438C2FFD3C7F00687A83 /* StereoPairFinder.swift */,
+				8F3843902FFD51FB00687A83 /* AcquisitionGrouper.swift */,
+				8F3843922FFD53CD00687A83 /* PowePointImporter.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -286,9 +316,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F3843952FFD6AB200687A83 /* Batch.swift in Sources */,
+				8F38438B2FFD3A8400687A83 /* WorkspaceView.swift in Sources */,
+				8F3843932FFD53CD00687A83 /* PowePointImporter.swift in Sources */,
 				8F9598F22FFB858300C14E70 /* ContentView.swift in Sources */,
+				8FD711C62FFC1A9500A6AEA3 /* AcquireView.swift in Sources */,
+				8F38438F2FFD51AB00687A83 /* AcquisitionGroup.swift in Sources */,
+				8F38438D2FFD3C7F00687A83 /* StereoPairFinder.swift in Sources */,
 				8FD711C42FFC0B7000A6AEA3 /* WelcomeView.swift in Sources */,
+				8F3843852FFCDE2E00687A83 /* FolderScanner.swift in Sources */,
+				8F3843872FFCE34A00687A83 /* PhotoCandidate.swift in Sources */,
+				8F3843892FFCE39500687A83 /* StereoPair.swift in Sources */,
 				8F9598F02FFB858300C14E70 /* StereomatixApp.swift in Sources */,
+				8F3843912FFD51FB00687A83 /* AcquisitionGrouper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
